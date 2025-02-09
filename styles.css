@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #9ebceb;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+.welcome {
+    justify-content: center;
+}
+
+.choices {
+    justify-content: space-evenly;
+}
+
+.display {
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    background-color: #3883F6;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 5px;
+}
